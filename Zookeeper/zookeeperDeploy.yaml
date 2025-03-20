@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: zookeeper
-          image: bitnami/zookeeper:3.9
+          image: bitnami/zookeeper:3.1
           env:
             - name: ZOO_PORT_NUMBER
               value: "2181"
